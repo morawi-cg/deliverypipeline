@@ -10,6 +10,5 @@ build:
     # and the code value contains the command that get executed
     - script:
         name: echo python information
-        code: |
+        code: 
           echo "python version $(python --version) running"
-          echo "pip version $(pip --version) running"
