@@ -1,7 +1,0 @@
-box: wercker/python
-# Build definition
-build:
-  # The steps that will be executed on build
-  steps:
-    # A step that executes `pip install` command
-    - pip-install
