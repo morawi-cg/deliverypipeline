@@ -18,3 +18,12 @@ build:
         name: python unit test
         code: |
           python app_test.py
+deploy:
+  - steps
+    # A script to enerte the token was skipped to be implemented externally for security reasons
+    - internal/docker-push:
+      registry: https://registry.ng.bluemix.net
+      #repository: registry.ng.bluemix.net/<your repo>/<your_container>   # How does one get this?
+      repository: registry.ng.bluemix.net/APPS_UK/dpl/dpl01
+      username: mo.rawi@capgemini.com
+      password: 
