@@ -25,5 +25,5 @@ deploy:
       registry: https://registry.ng.bluemix.net
       #repository: registry.ng.bluemix.net/<your repo>/<your_container>   # How does one get this?
       repository: registry.ng.bluemix.net/APPS_UK/dpl/dpl01
-      username: mo.rawi@capgemini.com
-      password: 
+      username: bearer
+      password: $IBM_TOKEN
