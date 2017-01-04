@@ -5,7 +5,7 @@ dev:
     - internal/watch:
         code: python app.py
         reload: true
-# Build definition
+# Build definition new stuff
 build:
   # The steps that will be executed on build
   steps:
