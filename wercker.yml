@@ -19,7 +19,7 @@ build:
         code: |
           python app_test.py
 deploy:
-  - steps
+  - steps:
     # A script to enerte the token was skipped to be implemented externally for security reasons
     - internal/docker-push:
       registry: https://registry.ng.bluemix.net/v2
