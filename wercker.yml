@@ -22,7 +22,8 @@ deploybluemix:
    steps:
      # A script to enerte the token was skipped to be implemented externally for security reasons
       - internal/docker-push:
-          registry: https://registry.ng.bluemix.net/v2
+          registry: registry.eu-gb.bluemix.net/aie_london/v2
+          #https://registry.ng.bluemix.net/v2
           #repository: registry.ng.bluemix.net/<your repo>/<your_container>   # How does one get this?
           repository: registry.eu-gb.bluemix.net/aie_london/pymo
           #registry.ng.eu-gb.bluemix.net/aie_london/pymo
