@@ -7,7 +7,7 @@ dev:
         reload: true
 # Build definition new stuff
 build:
-  # The steps that will be executed on build,,,,,xxxxxx
+  # The steps that will be executed on build
   steps:
     # A step that executes `pip install` command, ,,,,,,,
     - pip-install
